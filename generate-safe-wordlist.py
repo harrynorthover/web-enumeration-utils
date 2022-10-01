@@ -68,7 +68,7 @@ if args.user and args.passwords:
 
 # Password Spray: Single password, with multiple users.
 if args.password and args.users:
-    for user in args.users:
+    for user in usernames:
         adjustedUsers.write(args.validUser + '\n')
         adjustedUsers.write(user + '\n')
 
@@ -77,8 +77,8 @@ if args.password and args.users:
 
 # Cluster Attack. Every account, can be tried against every password, with a valid credential in between each row.
 if args.passwords and args.users:
-    for user in args.users:
-        for pwd in args.password:
+    for user in usernames:
+        for pwd in passwords:
             adjustedUsers.write(args.validUser + '\n')
             adjustedUsers.write(user + '\n')
 

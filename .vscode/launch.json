@@ -11,13 +11,13 @@
       "args": ["--validUser=wiener", "--validPassword=peter", "--user=carlos", "--passwords=/Users/harrynorthover/Library/Mobile Documents/com~apple~CloudDocs/Security/Tools/Wordlists/portswigger-passwords.txt"]
     },
     {
-      "name": "Password Spary all Users",
+      "name": "Password Spary All Users",
       "type": "python",
       "request": "launch",
       "program": "./generate-safe-wordlist.py",
       "console": "integratedTerminal",
       "justMyCode": true,
-      "args": ["--validUser=wiener", "--validPassword=peter", "--users=/Users/harrynorthover/Library/Mobile Documents/com~apple~CloudDocs/Security/Tools/Wordlists/portswigger-users.txt", "--passwords=/Users/harrynorthover/Library/Mobile Documents/com~apple~CloudDocs/Security/Tools/Wordlists/portswigger-passwords.txt"]
+      "args": ["--validUser=wiener", "--validPassword=peter", "--users=/Users/harrynorthover/Library/Mobile Documents/com~apple~CloudDocs/Security/Tools/Wordlists/portswigger-users.txt", "--password=pa$$word"]
     },
     {
       "name": "Cluster Attack",
@@ -26,7 +26,7 @@
       "program": "./generate-safe-wordlist.py",
       "console": "integratedTerminal",
       "justMyCode": true,
-      "args": ["--validUser=wiener", "--validPassword=peter", "--users=/Users/harrynorthover/Library/Mobile Documents/com~apple~CloudDocs/Security/Tools/Wordlists/portswigger-users.txt", "--password=pa$$word"]
+      "args": ["--validUser=wiener", "--validPassword=peter", "--users=/Users/harrynorthover/Library/Mobile Documents/com~apple~CloudDocs/Security/Tools/Wordlists/portswigger-users.txt", "--passwords=/Users/harrynorthover/Library/Mobile Documents/com~apple~CloudDocs/Security/Tools/Wordlists/portswigger-passwords.txt"]
     }
   ]
 }
